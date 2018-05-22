@@ -28,7 +28,7 @@ import Foundation
 import QuartzCore
 import UIKit
 
-let bundle = Bundle(for: NSClassFromString("ESRefreshComponent")!)
+let bundle = Bundle.init(identifier: "org.cocoapods.ESPullToRefresh")
 
 open class ESRefreshHeaderAnimator: UIView, ESRefreshProtocol, ESRefreshAnimatorProtocol, ESRefreshImpactProtocol {
     open var pullToRefreshDescription = NSLocalizedString("Pull to refresh", tableName: nil, bundle: bundle, value: "", comment: "") {
@@ -47,7 +47,7 @@ open class ESRefreshHeaderAnimator: UIView, ESRefreshProtocol, ESRefreshAnimator
 //        }
 //    }
     open var releaseToRefreshDescription = NSLocalizedString("Release to refresh", tableName: nil, bundle: bundle, value: "", comment: "")
-    open var loadingDescription = NSLocalizedString("Loading...", tableName: nil, bundle: bundle, value: "", comment: "") 
+    open var loadingDescription = NSLocalizedString("Loading...", tableName: nil, bundle: bundle, value: "", comment: "")
 
     open var view: UIView { return self }
     open var insets: UIEdgeInsets = UIEdgeInsets.zero
