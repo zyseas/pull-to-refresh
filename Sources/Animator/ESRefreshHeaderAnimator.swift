@@ -28,7 +28,7 @@ import Foundation
 import QuartzCore
 import UIKit
 
-let bundle = Bundle.init(identifier: "org.cocoapods.ESPullToRefresh")
+let bundle = Bundle.init(identifier: "org.cocoapods.ESPullToRefresh")!
 
 open class ESRefreshHeaderAnimator: UIView, ESRefreshProtocol, ESRefreshAnimatorProtocol, ESRefreshImpactProtocol {
     open var pullToRefreshDescription = NSLocalizedString("Pull to refresh", tableName: nil, bundle: bundle, value: "", comment: "") {
