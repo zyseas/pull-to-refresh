@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
     s.source            = {:git => 'https://github.com/eggswift/pull-to-refresh.git', :tag => s.version}
     s.source_files      = ['Sources/**/*.{swift}']
     s.resource_bundles  = { 
-        'ESPullToRefresh' => ['Sources/Animator/*.png','Sources/Animator/*.lproj/*']
+        'ESPullToRefresh' => 'Sources/Animator/*.png'
+        'ESPullToRefresh' => 'Sources/Animator/*.lproj/*'
      }
     s.requires_arc      = true
 end
