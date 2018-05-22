@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name              = 'ESPullToRefresh'
-    s.version           = '2.7'
+    s.version           = '2.8'
     s.summary           = 'An easy way to use pull-to-refresh and loading-more'
     s.description       = 'An easiest way to give pull-to-refresh and loading-more to any UIScrollView. Using swift!'
     s.homepage          = 'https://github.com/eggswift/pull-to-refresh'
@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
     s.platform          = :ios, '8.0'
     s.source            = {:git => 'https://github.com/eggswift/pull-to-refresh.git', :tag => s.version}
     s.source_files      = ['Sources/**/*.{swift}']
-    s.resource_bundles  = { 'ESPullToRefresh' => 'Sources/Animator/*.png' }
+    s.resource_bundles  = { 
+        'ESPullToRefresh' => ['Sources/Animator/*.png','Sources/Animator/*.lproj/*']
+     }
     s.requires_arc      = true
 end
