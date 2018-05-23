@@ -10,6 +10,7 @@
 		2869905B1EAF382C005B3E3E /* ES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2869905A1EAF382C005B3E3E /* ES.swift */; };
 		37A073BD1F26F476002EF10F /* ES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2869905A1EAF382C005B3E3E /* ES.swift */; };
 		5A180DBC1E80112D00F9EE1A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A180DBE1E80112D00F9EE1A /* Localizable.strings */; };
+		8241AFBB20B517A200FDBFC3 /* Bundle+Extentson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241AFBA20B517A200FDBFC3 /* Bundle+Extentson.swift */; };
 		F63613701CDD9CCD00AA9AF7 /* MTRefreshHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F636136F1CDD9CCD00AA9AF7 /* MTRefreshHeaderAnimator.swift */; };
 		F63613721CDD9CD900AA9AF7 /* MTRefreshFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63613711CDD9CD900AA9AF7 /* MTRefreshFooterAnimator.swift */; };
 		F64456001D65A2F10094D58E /* ESRefreshTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64455FF1D65A2F10094D58E /* ESRefreshTableViewController.swift */; };
@@ -68,6 +69,7 @@
 		5A180DBD1E80112D00F9EE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5A180DBF1E80113B00F9EE1A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5A180DC01E80114200F9EE1A /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8241AFBA20B517A200FDBFC3 /* Bundle+Extentson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extentson.swift"; sourceTree = "<group>"; };
 		F636136F1CDD9CCD00AA9AF7 /* MTRefreshHeaderAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTRefreshHeaderAnimator.swift; sourceTree = "<group>"; };
 		F63613711CDD9CD900AA9AF7 /* MTRefreshFooterAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTRefreshFooterAnimator.swift; sourceTree = "<group>"; };
 		F64455FF1D65A2F10094D58E /* ESRefreshTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshTableViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				F69077081D0D0A7F00BE91FE /* ESRefreshComponent.swift */,
 				F69077071D0D0A7F00BE91FE /* ESRefreshAnimator.swift */,
 				F69077091D0D0A7F00BE91FE /* ESRefreshProtocol.swift */,
+				8241AFBA20B517A200FDBFC3 /* Bundle+Extentson.swift */,
 				2869905A1EAF382C005B3E3E /* ES.swift */,
 				5A180DBE1E80112D00F9EE1A /* Localizable.strings */,
 			);
@@ -425,6 +428,7 @@
 				F690770E1D0D0A7F00BE91FE /* ESRefreshHeaderAnimator.swift in Sources */,
 				F6E433C41D1BB36700307E8A /* TextViewController.swift in Sources */,
 				F69200101CDB9A530029EF47 /* AppDelegate.swift in Sources */,
+				8241AFBB20B517A200FDBFC3 /* Bundle+Extentson.swift in Sources */,
 				2869905B1EAF382C005B3E3E /* ES.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

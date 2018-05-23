@@ -31,14 +31,22 @@ import UIKit
 let bundle = Bundle.init(identifier: "org.cocoapods.ESPullToRefresh")!
 
 open class ESRefreshHeaderAnimator: UIView, ESRefreshProtocol, ESRefreshAnimatorProtocol, ESRefreshImpactProtocol {
-    open var pullToRefreshDescription = NSLocalizedString("Pull to refresh", tableName: nil, bundle: bundle, value: "", comment: "") {
+    open var pullToRefreshDescription = Bundle.localizedStringForKey(key: "Pull to refresh") {
         didSet {
             if pullToRefreshDescription != oldValue {
                 titleLabel.text = pullToRefreshDescription;
             }
         }
     }
-
+//    open var pullToRefreshDescription = NSLocalizedString("Pull to refresh", tableName: nil, bundle: bundle, value: "", comment: "") {
+//        didSet {
+//            if pullToRefreshDescription != oldValue {
+//                titleLabel.text = pullToRefreshDescription;
+//            }
+//        }
+//    }
+//
+//
 //    open var pullToRefreshDescription = NSLocalizedString("Pull to refresh", comment: "") {
 //        didSet {
 //            if pullToRefreshDescription != oldValue {
@@ -46,8 +54,8 @@ open class ESRefreshHeaderAnimator: UIView, ESRefreshProtocol, ESRefreshAnimator
 //            }
 //        }
 //    }
-    open var releaseToRefreshDescription = NSLocalizedString("Release to refresh", tableName: nil, bundle: bundle, value: "", comment: "")
-    open var loadingDescription = NSLocalizedString("Loading...", tableName: nil, bundle: bundle, value: "", comment: "")
+    open var releaseToRefreshDescription = Bundle.localizedStringForKey(key: "Release to refresh") //NSLocalizedString("Release to refresh", tableName: nil, bundle: bundle, value: "", comment: "")
+    open var loadingDescription = Bundle.localizedStringForKey(key: "Loading...") //NSLocalizedString("Loading...", tableName: nil, bundle: bundle, value: "", comment: "")
 
     open var view: UIView { return self }
     open var insets: UIEdgeInsets = UIEdgeInsets.zero
